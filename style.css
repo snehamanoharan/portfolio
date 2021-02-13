@@ -1,0 +1,519 @@
+        @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        section {
+            padding: 80px;
+        }
+        
+        header {
+            position: fixed;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 40px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.5s;
+            text-align: center;
+        }
+        
+        header a.logo {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        
+        header ul.menu {
+            position: relative;
+            display: flex;
+        }
+        
+        header ul li {
+            margin-top: 20px;
+            list-style-type: none;
+            position: relative;
+        }
+        
+        header ul li a {
+            position: relative;
+            display: inline-block;
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        header ul li a:hover {
+            color: white;
+            text-decoration: none;
+        }
+        
+        header.sticky {
+            background: #fff;
+            padding: 20px 100px;
+            color: black;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        header.sticky .logo,
+        header.sticky ul li a {
+            color: #000;
+        }
+        
+        .banner {
+            position: 80px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #111111;
+            /*background: url(images/myimg.jpg);*/
+            background-size: cover;
+            background-position: right center;
+        }
+        
+        .banner h2 {
+            font-size: 2.5em;
+            color: gray;
+            font-weight: 300;
+            line-height: 1.5 em;
+        }
+        
+        .banner h2 span {
+            font-size: 1.2em;
+            color: white;
+        }
+        
+        .banner h3 {
+            font-size: 1.5 em;
+            color: white;
+            font-weight: 500;
+        }
+        
+        .btn {
+            position: relative;
+            background: orange;
+            display: inline-block;
+            color: #111111;
+            margin-top: 20px;
+            padding: 10px 30px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+            font-size: 19px;
+        }
+        
+        button.btn {
+            margin-left: 20px;
+        }
+        
+        .heading {
+            width: 100%;
+            text-align: center;
+            color: #111111;
+            margin-bottom: 30px;
+        }
+        
+        .heading p {
+            font-size: 14px;
+            font-style: italic;
+        }
+        
+        .heading h2 {
+            font-size: 3em;
+            color: orange;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .proPic {
+            width: 300px;
+            height: 350px;
+            border-top-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+        }
+        
+        .contentBx {
+            padding-left: 40px;
+            text-align: justify;
+        }
+        
+        .contentBx h2 {
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        
+        .contentBx h3 {
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .bot {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            justify-content: space-evenly;
+        }
+        
+        .btn.round {
+            border-radius: 50px;
+            margin-top: 10px;
+            padding: 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 300;
+            font-size: 15px;
+        }
+        
+        .bt {
+            margin-top: 20px;
+        }
+        
+        .w50 {
+            min-width: 25%;
+        }
+        
+        img {
+            max-width: 100%
+        }
+        
+        .skills,
+        .internships,
+        .contact {
+            background: #111111;
+        }
+        
+        .white p {
+            color: white;
+            font-size: 14px;
+        }
+        
+        .card {
+            margin-bottom: 20px;
+            background: #1b1b1b6e;
+            color: white;
+            text-align: center;
+        }
+        
+        h5.card-title {
+            margin-top: 20px
+        }
+        
+        .card:hover {
+            transform: scale(1.009);
+            box-shadow: 0 10px 20px rgba(241, 180, 11, 0.12);
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        
+        .fa {
+            color: orange;
+            margin-top: 20px;
+        }
+        
+        .whitebg {
+            background-color: white;
+            color: black;
+            text-decoration: none;
+        }
+        
+        h5.whitebg {
+            color: #111111;
+            text-decoration: none;
+        }
+        
+        .whitebg:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(7, 7, 7, 0.863);
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        
+        #int {
+            color: orange;
+            size: 13px;
+            font-style: italic;
+            text-align: center
+        }
+        
+        #int2 {
+            color: orange;
+            size: 13px;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        .card ul {
+            text-align: left;
+            justify-content: space-evenly;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        
+        .intern h4 {
+            color: white;
+        }
+        
+        #contacts h3 {
+            color: orange;
+            margin-top: 30px;
+        }
+        
+        #contacts i {
+            color: white;
+        }
+        
+        #contacts p {
+            color: antiquewhite;
+        }
+        
+        .con {
+            margin-left: 30px;
+        }
+        
+        .con a {
+            justify-content: space-between;
+        }
+        
+        input,
+        textarea {
+            width: 100%;
+            min-height: 50px;
+            background-color: #1b1b1b6e;
+            color: white;
+            border: none;
+            margin: 15px;
+            resize: vertical;
+            outline: none;
+        }
+        
+        input:focus,
+        textarea:focus {
+            border-bottom: 4px solid orange;
+        }
+        
+        .card {
+            max-width: 800px;
+            min-height: 400px;
+            flex: 0 0 100%;
+        }
+        
+        .btnn {
+            width: 120px;
+            background-color: orange;
+            color: #111111;
+            position: relative;
+            display: inline-block;
+            margin-left: 10px;
+            margin-bottom: 0%;
+            padding: 10px 30px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+            font-size: 19px;
+            border-radius: 50px;
+        }
+        
+        .skillbx p {
+            margin-top: 65px;
+            text-align: left;
+        }
+        
+        .ski {
+            min-height: 380px;
+            flex: 0 0 100%;
+        }
+        
+        footer.copyright {
+            background: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        @media screen and ( max-width: 991px) {
+            header,
+            header.sticky {
+                padding: 20px 50px;
+            }
+            header ul.menu {
+                display: none;
+            }
+            header ul.menu {
+                position: fixed;
+                background: #fff;
+                display: block;
+                top: 75px;
+                left: -100%;
+                padding: 100px 50px;
+                width: 100%;
+                height: 100vh;
+                border-top: 1px solid rgba(0, 0, 0, 0.2);
+                text-align: center;
+                transition: 0.8s;
+            }
+            header ul.menu.active {
+                position: fixed;
+                background: #fff;
+                display: block;
+                top: 75px;
+                left: 0;
+                padding: 100px 50px;
+                width: 100%;
+                height: 100vh;
+                border-top: 1px solid rgba(0, 0, 0, 0.2);
+                text-align: center;
+            }
+            header ul li a {
+                color: #000;
+                font-size: 20px;
+                font-weight: 400;
+                margin: 10px 0;
+            }
+            .toggle {
+                width: 40px;
+                height: 40px;
+                background-image: url(images/menu.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 30px;
+                cursor: pointer;
+            }
+            .toggle.active {
+                width: 40px;
+                height: 40px;
+                background-image: url(images/close.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 25px;
+                cursor: pointer;
+            }
+            header.sticky .toggle {
+                filter: invert(1);
+            }
+            section {
+                padding: 100px 30px;
+            }
+            .banner {
+                padding: 150px 50px 100px;
+            }
+            .banner h2 {
+                font-size: 1.7em;
+            }
+            .banner h3 {
+                font-size: 1.5em;
+            }
+            .textbox {
+                position: relative;
+                padding-top: 170px;
+            }
+            .btn {
+                margin-top: 10px;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 50px;
+            }
+            .content {
+                flex-direction: column;
+            }
+            .contentBx {
+                padding: 0;
+            }
+            .bot {
+                display: flex;
+                flex-direction: column;
+            }
+            .content .w50 img {
+                display: block;
+                margin: 0 auto 30px auto;
+            }
+            .contentBx h2 {
+                font-size: 20px;
+                font-weight: 300;
+            }
+            .contentBx h3 {
+                font-size: 20px;
+            }
+            .heading h2 {
+                font-size: 24px;
+            }
+            .skills .row .col {
+                max-height: 10px;
+                padding: 10px;
+            }
+            h5.card-title {
+                font-size: large;
+            }
+            p.card-text {
+                font-size: smaller;
+            }
+            h4.card-title {
+                font-size: large;
+            }
+            p#int2,
+            p#int1 {
+                font-size: smaller;
+            }
+            #contact h3 {
+                font-size: unset;
+            }
+            #contact p {
+                font-size: smaller;
+            }
+            .btn.round {
+                width: 55%;
+                border-radius: 50px;
+                font-weight: 460;
+                font-size: 14px;
+                letter-spacing: 0ch;
+            }
+            input.btnn {
+                width: 35%;
+                font-size: 13px;
+                border-radius: 50px;
+            }
+            input,
+            textarea {
+                width: 90%;
+            }
+            #socialicon {
+                justify-content: space-evenly;
+            }
+        }
+        
+        @media screen and ( max-width: 600px) {
+            .bt {
+                font-size: 12.5px;
+                text-align: left;
+            }
+            btn.round {
+                width: 45%;
+                font-size: 15px;
+                border-radius: 50px;
+            }
+            input.btnn {
+                width: 35%;
+                font-size: 10px;
+            }
+            .bot {
+                display: flex;
+                flex-direction: column;
+            }
+        }

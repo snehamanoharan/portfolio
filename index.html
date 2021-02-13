@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" lang="javascript"></script>
+    <title>
+        portfolio
+    </title>
+
+</head>
+
+<body>
+    <!--navbar using html-->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();">
+        </div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#internships" onclick="toggleMenu();">Internships</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+
+    </header>
+
+
+    <!--home-->
+    <section class="banner " id="home">
+        <div class="textbox ">
+            <h2> hello, I'm <br><span> Sneha Manoharan</span></h2>
+            <h3> A budding full stack developer</h3>
+            <a href="#about " class="btn "> About me </a>
+        </div>
+    </section>
+
+    <!--about me -->
+    <section class="about " id="about">
+        <div class="heading ">
+            <p>Get to know about me</p>
+            <h2>About me </h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/mypic.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i ?</h3>
+                <h2>I'm a CSE student & a budding full stack developer.</h2>
+                <p>I love to do everything creatively and meticulously . I'm very much into full stack development,creative writing and communication. I can build complete responsive websites from scratch, creatively write various types of content in English
+                    and am a very skilled communicator. I believe that communication is the key to every success and i never quit untill i have turned every possibility down.</p>
+                <div class="heading bottom">
+                    <a href="/assets/Sneha-Resume.pdf" target="blank" class="btn round">Download CV</a>
+                    <div class="bot">
+                        <div class="bt">
+                            <b>Name:</b>Sneha Manoharan<br>
+                            <b>Age:</b> 20
+                        </div>
+                        <div class="bt">
+                            <b>Email:</b> snehamanoharan992@gmail.com<br>
+                            <b>Location:</b> Coimbatore,India.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--skills-->
+    <section class="skills " id="skills">
+        <div class="heading white ">
+            <h2>My Skills</h2>
+            <p>the technical skills i possess</p>
+        </div>
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <div class="card ski ">
+                    <div class="card-body skillbx ">
+                        <i class="fa fab fa-css3 fa-3x "></i>
+                        <i class="fa fab fa-html5 fa-3x "></i>
+                        <h5 class="card-title ">FullStack development</h5>
+                        <p class="card-text ">Both front & back end web development involving JavaScript,node,js, jquery,bootstap,html and CSS.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card ski ">
+                    <div class="card-body skillbx ">
+                        <i class="fa fab fa-database fa-3x "></i>
+                        <h5 class="card-title ">Database</h5>
+                        <p class="card-text ">Different types of databases ,their working , SQL, PLSQL and aws cloud practices. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card ski ">
+                    <div class="card-body skillbx ">
+                        <i class="fa fab fa-code fa-3x "></i>
+                        <h5 class="card-title ">C/C++</h5>
+                        <p class="card-text ">Equipped with basic programming skills involving c and c++.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card ski ">
+                    <div class="card-body skillbx ">
+                        <i class="fa fab fa-pencil fa-3x "></i>
+                        <h5 class="card-title ">Creative Writing</h5>
+                        <p class="card-text ">Outstanding writing,grammar with refined proofreading and editing skills</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card ski ">
+                    <div class="card-body skillbx ">
+                        <i class="fa fab fa-code fa-3x "></i>
+                        <h5 class="card-title ">Java</h5>
+                        <p class="card-text ">Basic programming skills involving java, Web and OOPS framework.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card ski ">
+                    <div class="card-body skillbx ">
+                        <i class="fa fab fa-code fa-3x "></i>
+                        <h5 class="card-title ">Javascript</h5>
+                        <p class="card-text ">Javascript programming,front-end UI development using HTML5, CSS3, JQuery, JSON, node js, JQuery libraries and frameworks</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--work-->
+
+    <section class="work " id="work">
+        <div class="heading ">
+            <h2>My Work</h2>
+            <p>Showcasing my latest works</p>
+        </div>
+        <div class="row " id="works ">
+            <div class="col-sm-6 ">
+                <div class="card ">
+                    <a href="#home ">
+                        <div class="card-body whitebg ">
+                            <!--<img src="images/myimg.jpg " alt=" "> -->
+                            <h5 class="card-title ">Travelogue</h5>
+                            <p class="card-text "></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 ">
+                <div class="card ">
+                    <a href="#home ">
+                        <div class="card-body whitebg ">
+                            <!--<img src="images/myimg.jpg " alt=" "> -->
+                            <h5 class="card-title "> Yelp camp</h5>
+                            <p class="card-text "></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--
+        <div class="col-sm-6 ">
+            <div class="card ">
+                <a href="#home ">
+                    <div class="card-body whitebg ">
+                        <img src="images/myimg.jpg " alt=" "> 
+                        <h5 class="card-title "> Yelp camp</h5>
+                        <p class="card-text "></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-6 ">
+            <div class="card ">
+                <a href="#home ">
+                    <div class="card-body whitebg ">
+                        <img src="images/myimg.jpg " alt =" ">
+                        <h5 class="card-title "> Yelp camp</h5>
+                        <p class="card-text "></p>
+                    </div>
+                </a>
+            </div>
+        </div> -->
+        </div>
+    </section>
+
+    <!--internship-->
+    <section class="internships " id="internships">
+        <div class="heading white ">
+            <h2>Internships & certifcations</h2>
+            <p>my certifications and internships</p>
+        </div>
+        <div class="row " id="intern">
+            <div class="col-sm-6 ">
+                <div class="card intern ">
+                    <div class="card-body ">
+                        <h4 class="card-title ">Full Stack Development</h4>
+                        <p id="int ">Sirius Computer Solutions, Inc <br> (1 june - 19 june 2020)</p>
+                        <ul>
+                            <li>
+                                <p class="card-text ">Involving HTML , CSS, JavaScript , jQuery , NodeJS , Mongodb
+                                    <p>
+                            </li>
+                            <li>
+                                <p class="card-text ">developed two websites named travelogue & yelp camp.</p>
+                            </li>
+                        </ul>
+                        <a href="/assets/Internship certificate - Sneha Manoharan.pdf" target="blank " class="btn round ">Certificate</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="card intern ">
+                    <div class="card-body ">
+                        <h4 class="card-title ">OOPS and Database concepts</h4>
+                        <p id="int2 ">KG Information Systems Private Limited <br> (2 dec - 17 dec 2019)</p>
+                        <ul>
+                            <li>
+                                <p class="card-text ">In-plant training in the basics of OOPS, databases, SQL and PLSQL.
+                                    <p>
+                            </li>
+                            <li>
+                                <p class="card-text ">Worked in real time databases.</p>
+                            </li>
+                        </ul>
+                        <a href="Internship certificate - Sneha Manoharan.pdf " target="blank " class="btn round ">Certificate</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="card intern ">
+                    <div class="card-body ">
+                        <h4 class="card-title ">AWS Fundamentals: Going Cloud-Native</h4>
+                        <p id="int2 ">Coursera online certification <br> (May 2020)</p>
+                        <ul>
+                            <li>
+                                <p class="card-text ">Basics about the working methodologies of cloud databases
+                                    <p>
+                            </li>
+                            <li>
+                                <p class="card-text ">How to work in an AWS virtual cloud.</p>
+                            </li>
+                        </ul>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/9M2BYAS5RE8P " target="blank " class="btn round ">Certificate</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="card intern ">
+                    <div class="card-body ">
+                        <h4 class="card-title ">IT Security: Defense against the digital dark arts</h4>
+                        <p id="int2 ">Coursera online certification<br>(September 2020)</p>
+                        <ul>
+                            <li>
+                                <p class="card-text ">Basics about the working methodologies of internet protocols
+                                    <p>
+                            </li>
+                            <li>
+                                <p class="card-text ">The methods to prevent different types of hacking. </p>
+                            </li>
+                        </ul>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/SBV7DNEUADSV " target="blank " class="btn round ">Certificate</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--contact-->
+    <section class="contact " id="contact">
+        <div class="heading white ">
+            <p>Feel free to contact me </p>
+            <h2>Contact Me</h2>
+
+        </div>
+        <div class="row " id="contacts">
+            <div class="col-sm-5 ">
+                <h3 style="color: white; ">Contact info</h3>
+                <p>Always available for freelance work,if the right project comes along.<br>feel free to contact me!</p>
+
+                <div class="col-sm-6 ">
+                    <h3><i class="fa fab fa-location-arrow "></i> Address <br></h3>
+                    <div class="con ">
+                        <p> 3, shiva shree gardens,<br> Singanallur
+                            <br> Coimbatore-641005
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 ">
+                    <h3><i class="fa fab fa-phone "></i> Phone <br></h3>
+                    <div class="con ">
+                        <p> 8220244420<br>8098427272
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 ">
+                    <h3><i class="fa fas fa-envelope "></i> Email <br></h3>
+                    <div class="con ">
+                        <p> snehamanoharan992@gmail.com
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 ">
+                    <h3>Social Media</h3>
+                    <div class="row" id="socialicon">
+                        <div class="icon col-2 ">
+                            <a href="https://www.facebook.com/sneha.manoharan.14 " target="blank "><i class="fa fas fa-facebook-official fa-2x "></i></a>
+                        </div>
+                        <div class="icon col-2 ">
+                            <a href="https://www.instagram.com/sneha__manoharan/?hl=en " target="blank "> <i class="fa fas fa-instagram fa-2x "></i></a>
+                        </div>
+                        <div class="icon col-2 ">
+                            <a href="https://www.linkedin.com/in/sneha-manoharan-7058b0187/ " target="blank "> <i class="fa fas fa-linkedin fa-2x "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 ">
+                <div class=" formbx ">
+                    <form action="https://getform.io/f/4e28c6df-3edc-4247-bcb4-dc250df193ab" method="POST" enctype="multipart/form-data">
+                        <h3 style="color: white; margin-left: 20px; "> Message Me</h3><br>
+                        <input type="text " name="name" placeholder=" Full name " />
+                        <input type="email " name="email" placeholder=" email " />
+                        <textarea name=" " id=" " cols="96 " rows="10 " placeholder=" your message " name="message"></textarea>
+                        <button type="submit" class="btnn">Send</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--footer-->
+    <footer class="copyright ">
+        <p> &copy; 2021, www.snehamanoharan.com, Allrights reserved</p>
+    </footer>
+
+
+
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <!--<script>
+    $(function() {
+        $(document).scroll(function() {
+            var $nav = $("#mainnav ");
+            $nav.toggleClass("scrolled ", $(this).scrollTop() > $nav.height());
+        })
+    })
+     </script>-->
+</body>
+
+</html>
